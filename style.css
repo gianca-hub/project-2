@@ -1,0 +1,104 @@
+```css
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin: 50px;
+  padding: 40px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+
+nav {
+  position: sticky;
+  top: 0;
+  background: black;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.resume {
+  padding: 40px;
+}
+
+.resume h1 {
+  margin-bottom: 20px;
+}
+
+.resume section {
+  margin-bottom: 20px;
+}
+```
